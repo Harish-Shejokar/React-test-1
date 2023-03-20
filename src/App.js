@@ -1,6 +1,6 @@
 import React,{useState} from "react";
 import Form from "./Components/Form/Form";
-import List from "./List/List";
+import List from "./Components/List/List";
 
 function App() {
 

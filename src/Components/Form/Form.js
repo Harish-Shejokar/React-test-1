@@ -33,11 +33,11 @@ const Form = (props) => {
       <Card className={classes.form}>
         <form onSubmit={submitHandler}>
           <label htmlFor="product-id">Product-ID</label>
-          <input ref={idRef} type="number" />
+          <input ref={idRef} type="number" required/>
           <label>Selling-Price</label>
-          <input ref={priceRef} type="number" />
+          <input ref={priceRef} type="number" required/>
           <label>Product-Name</label>
-          <input ref={productRef} type="text" />
+          <input ref={productRef} type="text" required/>
           <label htmlFor="category">Category</label>
           <select ref={categoryRef}>
             <option value="Choose">Choose</option>
